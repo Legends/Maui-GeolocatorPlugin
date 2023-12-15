@@ -19,7 +19,7 @@ internal class GeolocationContinuousListener: Java.Lang.Object, ILocationListene
     {
         this.manager = manager;
         this.timePeriod = timePeriod;
-        this.providers = providers;
+        this.providers = providers;  
 
         foreach (string p in providers)
         {
